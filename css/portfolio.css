@@ -1,0 +1,119 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio (https://startbootstrap.com/template-overviews/3-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/blob/master/LICENSE)
+ */
+
+@font-face {
+  font-family: 'Alesand-Regular';
+  src: url('../fonts/Alesand\ Regular.otf');
+  src: url('../fonts/Alesand\ Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Alesand-Light';
+  src: url('../fonts/Alesand\ Light.otf');
+  src: url('../fonts/Alesand\ Light.ttf');
+}
+
+.color-grey{
+  color: gray;
+}
+
+a{
+  color: #000;
+}
+
+a:hover{
+  color: grey;
+  text-decoration: none;
+}
+
+nav{
+  font-family: 'Alesand-Light', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+  font-size: 1rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Alesand-Regular', sans-serif;
+}
+
+@media (min-width: 992px) {
+  
+}
+
+.jumbotron {
+  padding: 3rem 2rem 0rem;
+  background-color: #fff;
+  margin-bottom: 0;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+
+.card {
+  border: 0;
+}
+
+.card-body{
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.card:hover .card-body{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius: 0.25rem;
+  /* transition: 1s display ease; */
+}
+
+.card-body-wrapper{
+  width: 100%;
+  height: 100%;
+}
+
+.card-title{
+  margin: 4rem;
+}
+
+.card-title{
+  color: #fff;
+}
+
+.player{
+  margin: 2r
+}
+
+.container{
+  margin-bottom: 50px;
+}
